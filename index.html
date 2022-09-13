@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="SHORTCUT ICON" href="favicon.ico?v2" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+<body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <div class="container1">
+      
+      <div class="flex flex-row justify-between h-12 p-2">
+
+        <div class="ham-search flex flex-row items-center space-x-4 lg:hidden">
+          <span onclick="myFunction()"><i class="fa-solid fa-bars"></i></span>
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+
+        <div class="logo-microsoft flex flex-row items-center lg:space-x-5 lg:px-3">
+          <div class="logo">
+            <img src="micro-logo.png" class="w-28 lg:w-40 lg:cursor-pointer" alt="logo">
+          </div>
+          <div class="featu hidden absolute inset-0 top-12 bg-[#f2f2f2] h-fit lg:block lg:static lg:bg-transparent" id="newmenu">
+            <ul class="lg:flex lg:flex-row">
+              <li class="cursor-pointer p-2 my-3 md:my-5 md:px-4 md:text-xl lg:text-sm lg:hover:underline">Microsoft 365</li>
+              <hr>
+              <li class="cursor-pointer p-2 my-3 md:my-5 md:px-4 md:text-xl lg:text-sm lg:hover:underline">Office</li>
+              <hr>
+              <li class="cursor-pointer p-2 my-3 md:my-5 md:px-4 md:text-xl lg:text-sm lg:hover:underline">Windows</li>
+              <hr>
+              <li class="cursor-pointer p-2 my-3 md:my-5 md:px-4 md:text-xl lg:text-sm lg:hover:underline">Surface</li>
+              <hr>
+              <li class="cursor-pointer p-2 my-3 md:my-5 md:px-4 md:text-xl lg:text-sm lg:hover:underline">XboxSupport</li>
+              <hr>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="account-cart flex flex-row items-center space-x-4 lg:space-x-8">
+          <span><i class="fa-solid fa-cart-shopping"></i></span>
+          <span class="lg:block hidden"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span><i class="fa-solid fa-user-large"></i></span>
+        </div>
+
+      </div>
+        <!-- <div class="navbar py-4 px-1 flex justify-between md:w-[90%] md:m-auto">
+            <div class="con1 flex flex:row space-x-3 px-1 md:hidden">
+                <div class="hammburger md:hidden" onclick="myFunction()">
+                   <i class="menuIcon material-icons" id="ham">menu</i>
+                  <i class="closeIcon material-icons hidden" id="close">close</i>
+                    <div class="line w-5 bg-gray-400 h-[2px] my-1"></div>
+                    <div class="line w-5 bg-gray-400 h-[2px] my-1"></div>
+                    <div class="line w-5 bg-gray-400 h-[2px] my-1"></div>
+                </div>
+                <div class="search">
+                    <p><span class="material-symbols-outlined">search</span></p>
+                </div>
+            </div>
+
+            <div class="con2 flex flex-row space-x-8">
+                <div class="logo w-[5.5rem] md:w-28 flex items-center"><img src="micro-logo.png" class="cursor-pointer" alt=""></div>
+                  <div id="fea"
+                      class="features p-4 absolute hidden top-16 -left-8 bg-[#f2f2f2] md:bg-white md:static md:flex md:flex-row md:space-x-5 md:text-sm md:items-center">
+                      <div class="my-2 cursor-pointer hover:underline">Microsoft 365</div>
+                      <hr>
+                      <div class="my-2 cursor-pointer hover:underline">Teams</div>
+                      <hr>
+                      <div class="my-2 cursor-pointer hover:underline">Windows</div>
+                      <hr>
+                      <div class="my-2 cursor-pointer hover:underline">Surface</div>
+                      <hr>
+                      <div class="my-2 cursor-pointer hover:underline">Xbox</div>
+                      <hr>
+                      <div class="my-2 cursor-pointer hover:underline">Support</div>
+                      <hr>
+                  </div>
+            </div>
+
+            <div class="con3 flex flex-row space-x-3 md:order-last items-center">
+                <div class="search hidden md:block"><span class="material-symbols-outlined">search</span></div>
+                <div><span class="material-symbols-outlined">shopping_cart</span></div>
+                <div><span class="material-symbols-outlined">person</span></div>
+            </div>
+        </div> -->
+        <div class="slider shadow-md md:shadow-none ">
+            <div class="flex flex-col md:flex-row md:bg-[url('365.jpg')] md:bg-cover md:h-[550px]">
+                <div
+                    class="img bg-[url('mobile-365.avif')] bg-cover bg-center h-[270px] w-[100%] md:h-[495px] md:hidden">
+                    <!-- <img src="mobile-365.avif" class="" alt="365"> -->
+                </div>
+                <div class="content1 md:w-[39%] md:flex md:flex-col md:justify-center md:items-center">
+                    <div class="margin mx-5">
+                        <h1 class="font-semibold text-2xl md:text-3xl my-4">Microsoft 365</h1>
+                        <p class="mb-4">Premium Office apps, extra cloud <br class="hidden md:block"> storage, advanced
+                            security, and more – <br class="md:block hidden"> all in one convenient subscription</p>
+                        <button class="mb-3 bg-blue-600 text-white text-md font-bold p-2.5 rounded-sm">For up to 6 people</button>
+                        <a href="#" class="text-blue-900">
+                            <p>For 1 people ></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section1 flex flex-col my-16 md:flex-row md:justify-between md:px-32 md:my-10 w:screen md:w-auto">
+            <div class="img-con flex flex-col items-center mt-3 ">
+                <div class="logo1 my-4"><img src="s1.webp" alt="logo"></div>
+                <div class="con1"><a href="#"><span class="text-[#0067b8] underline">Choose your Mirosoft 365</span></a></div>
+            </div>
+            <div class="img-con flex flex-col items-center mt-3">
+                <div class="logo1 my-4"><img src="s2.webp" alt="logo"></div>
+                <div class="con1"><a href="#"><span class="text-[#0067b8] underline">Explore Surface devices</span></a></div>
+            </div>
+            <div class="img-con flex flex-col items-center mt-3">
+                <div class="logo1 my-4"><img src="s3.webp" alt="logo"></div>
+                <div class="con1"><a href="#"><span class="text-[#0067b8] underline">Buy Xbox games</span></a></div>
+            </div>
+            <div class="img-con flex flex-col items-center mt-3">
+                <div class="logo1 my-4"><img src="s1.webp" alt="logo"></div>
+                <div class="con1"><a href="#"><span class="text-[#0067b8] underline">Get Windows 11</span></a></div>
+            </div>
+        </div>
+
+
+        <section class="text-gray-600 body-font">
+            <div class="container4 px-5 py-14 mx-auto">
+              <div class="flex flex-col md:flex-row -m-4">
+                <div data-aos="zoom-in" data-aos-duration="2000" class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="pro1.jpg">
+                  </a>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Surface Laptop Go 2</h2>
+                    <p class="mt-1">A sleek laptop with a 12.4-inch touchscreen, great typing experience and improved HD camera.</p>
+                  </div>
+                </div>
+                <div data-aos="zoom-out" data-aos-duration="2000" class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="pro2.avif">
+                  </a>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Surface Laptop 4</h2>
+                    <p class="mt-1">Do it all with a perfect balance of sleek, ultra-thin design, multitasking speed and improved performance.</p>
+                  </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="pro3.avif">
+                  </a>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 title-font text-lg font-medium">PC Game Pass</h2>
+                    <p class="mt-1">Unlock 100+ great games and EA Play, plus get your first month for ₹50. Offer available to new subscribers only.                    </p>
+                  </div>
+                </div>
+                <div data-aos="zoom-out-right" data-aos-duration="2000" class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="pro4.avif">
+                  </a>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Designed for life today – and tomorrow</h2>
+                    <p class="mt-1">The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- <div class="product my-16 flex flex-col md:flex-row p-2">
+            <div class="pro">
+                <div class="pro-img">
+                    <img src="pro1.jpg" class="w-[10%]" alt="">
+                </div>
+                <div class="pro-con px-4">
+                    <h1 class="font-semibold text-2xl md:text-3xl my-4">Surface Laptop Go 2</h1>
+                        <p class="mb-4">A sleek laptop with a 12.4-inch <br class="hidden md:block"> touchscreen, great typing experience <br class="hidden md:block"> and improved HD camera.
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="product my-16">
+            <div class="pro">
+                <div class="pro-img">
+                    <img src="pro1.jpg" alt="">
+                </div>
+                <div class="pro-con px-4">
+                    <h1 class="font-semibold text-2xl md:text-3xl my-4">Surface Laptop Go 2</h1>
+                        <p class="mb-4">A sleek laptop with a 12.4-inch <br class="hidden md:block"> touchscreen, great typing experience <br class="hidden md:block"> and improved HD camera.
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="product my-16">
+            <div class="pro">
+                <div class="pro-img">
+                    <img src="pro1.jpg" alt="">
+                </div>
+                <div class="pro-con px-4">
+                    <h1 class="font-semibold text-2xl md:text-3xl my-4">Surface Laptop Go 2</h1>
+                        <p class="mb-4">A sleek laptop with a 12.4-inch <br class="hidden md:block"> touchscreen, great typing experience <br class="hidden md:block"> and improved HD camera.
+                        </p>
+                </div>
+            </div>
+            <div class="pro">
+                <div class="pro-img">
+                    <img src="pro1.jpg" alt="">
+                </div>
+                <div class="pro-con px-4">
+                    <h1 class="font-semibold text-2xl md:text-3xl my-4">Surface Laptop Go 2</h1>
+                        <p class="mb-4">A sleek laptop with a 12.4-inch <br class="hidden md:block"> touchscreen, great typing experience <br class="hidden md:block"> and improved HD camera.
+                        </p>
+                </div>
+            </div>
+            <div class="pro">
+                <div class="pro-img">
+                    <img src="pro1.jpg" alt="">
+                </div>
+                <div class="pro-con px-4">
+                    <h1 class="font-semibold text-2xl md:text-3xl my-4">Surface Laptop Go 2</h1>
+                        <p class="mb-4">A sleek laptop with a 12.4-inch <br class="hidden md:block"> touchscreen, great typing experience <br class="hidden md:block"> and improved HD camera.
+                        </p>
+                </div>
+            </div>
+            <div class="pro">
+                <div class="pro-img">
+                    <img src="pro1.jpg" alt="">
+                </div>
+                <div class="pro-con px-4">
+                    <h1 class="font-semibold text-2xl md:text-3xl my-4">Surface Laptop Go 2</h1>
+                        <p class="mb-4">A sleek laptop with a 12.4-inch <br class="hidden md:block"> touchscreen, great typing experience <br class="hidden md:block"> and improved HD camera.
+                        </p>
+                </div>
+            </div>
+        </div>-->
+        <div class="section3 xl:bg-[url('sec3.avif')] xl:bg-cover xl:bg-center xl:h-[500px] xl:my-8 xl:flex xl:items-center xl:w-[90%] xl:m-auto">
+            <div class="img">
+                <img src="section3 mobile.avif" class="md:hidden w-screen xl:hidden" alt="back">
+                <img src="sec3.avif" class="md:block hidden md:w-screen xl:hidden" alt="back">
+            </div>
+            <div class="content7 lg:relative lg:-top-7 lg:w-[95%] lg:m-auto xl:m-0 shadow-lg lg:bg-white xl:w-[35%] xl:relative xl:left-11 xl:top-2 xl:p-5">
+                <div class="margin lg:p-5 p-3">
+                    <h1 class="font-semibold text-2xl lg:text-3xl lg:">Microsoft Edge</h1>
+                    <p class="mb-4 lg:my-5 lg:text-xl xl:text-md">World-class performance with more privacy, more productivity and more value while you browse</p>
+                    <button class="mb-3 bg-blue-600 text-white text-sm font-bold p-2.5 rounded-sm lg:text-md">For up to 6 people</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="text-gray-600 body-font">
+            <div class="container4 px-5 py-14 mx-auto">
+              <div class="flex flex-col md:flex-row md:flex-wrap -m-4">
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="prop2.webp">
+                  </a>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Surface Laptop Go 2 for Business</h2>
+                    <p class="mt-1">A sleek, portable laptop featuring a great typing experience, Windows 11 Pro and professional-grade performance.</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="prop3.webp">
+                  </a>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Get Microsoft Teams for free</h2>
+                    <p class="mt-1">Online meetings, chat and shared cloud storage – all in one place.</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="prop4.webp">
+                  </a>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Microsoft 365 for business</h2>
+                    <p class="mt-1">Stay a step ahead with powerful apps for productivity, connection and security.</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="prop5.avif">
+                  </a>
+                  <div class="mt-4">
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Windows 11 for business is here</h2>
+                    <p class="mt-1">Designed for hybrid work. Powerful for employees. Consistent for IT. Secure for all.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="follow flex flex-row space-x-4 justify-center md:flex md:flex-row md:justify-start md:px-6">
+            <div class="con-social">Follow Microsoft on</div>
+            <div class="con-facebook"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="con-twitter"><i class="fa-brands fa-twitter"></i></div>
+            <div class="con-youtube"><i class="fa-brands fa-youtube"></i></div>
+          </div>
+          <!-- <div class="pageup my-3 md:flex md:justify-end w-screen"><button class="space-x-2 w-[90%] md:w-36 md:p-2 bg-[#d9d9d9] text-center text-xl p-3"><span><i class="fa-solid fa-arrow-up"></i></span><span>Back to top</span></button></div> -->
+
+          <div class="fotter1 px-10 py-4 bg-[#f2f2f2] flex flex-row flex-wrap md:gap-[50px] lg:gap-x-[100px] md:my-3">
+            <div class="whats-new my-6">
+                <ul>
+                    <li class="text-2xl">What's new</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft 365</li>
+                    <li class="my-3 cursor-pointer hover:underline">Surface Pro X</li>
+                    <li class="my-3 cursor-pointer hover:underline">Surface Pro 7</li>
+                    <li class="my-3 cursor-pointer hover:underline">Surface Laptop 3</li>
+                    <li class="my-3 cursor-pointer hover:underline">Windows 11 apps</li>
+                </ul>
+            </div>
+            <div class="whats-new my-6">
+                <ul>
+                    <li class="text-2xl">Microsoft Store</li>
+                    <li class="my-3 cursor-pointer hover:underline">Account profile</li>
+                    <li class="my-3 cursor-pointer hover:underline">Download Center</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Store Support</li>
+                    <li class="my-3 cursor-pointer hover:underline">Returns</li>
+                    <li class="my-3 cursor-pointer hover:underline">Order tracking</li>
+                </ul>
+            </div>
+            <div class="whats-new my-6">
+                <ul>
+                    <li class="text-2xl">Education</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft in education</li>
+                    <li class="my-3 cursor-pointer hover:underline">Devices for education</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Teams for Education</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft 365 Education</li>
+                    <li class="my-3 cursor-pointer hover:underline">Office Education</li>
+                    <li class="my-3 cursor-pointer hover:underline">Educator training and development</li>
+                    <li class="my-3 cursor-pointer hover:underline">Deals for students and parents</li>
+                    <li class="my-3 cursor-pointer hover:underline">Azure for students</li>
+                </ul>
+            </div>
+            <div class="whats-new my-6">
+                <ul>
+                    <li class="text-2xl">Business</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Cloud</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Security</li>
+                    <li class="my-3 cursor-pointer hover:underline">Azure</li>
+                    <li class="my-3 cursor-pointer hover:underline">Dynamics 365</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft 365</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Advertising</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Industry</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Teams</li>
+                </ul>
+            </div>
+            <div class="whats-new my-6">
+                <ul>
+                    <li class="text-2xl">Developer & IT</li>
+                    <li class="my-3 cursor-pointer hover:underline">Developer Center</li>
+                    <li class="my-3 cursor-pointer hover:underline">Documentation</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Learn</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Tech Community</li>
+                    <li class="my-3 cursor-pointer hover:underline">Azure Marketplace</li>
+                    <li class="my-3 cursor-pointer hover:underline">AppSource</li>
+                    <li class="my-3 cursor-pointer hover:underline">Microsoft Power Platform</li>
+                    <li class="my-3 cursor-pointer hover:underline">Visual Studio</li>
+                </ul>
+            </div>
+            <div class="whats-new my-6">
+                <ul>
+                    <li class="text-2xl">Developer & IT</li>
+                    <li class="my-3 cursor-pointer hover:underline">Company</li>
+                    <li class="my-3 cursor-pointer hover:underline">Careers</li>
+                    <li class="my-3 cursor-pointer hover:underline">About Microsoft</li>
+                    <li class="my-3 cursor-pointer hover:underline">Company news</li>
+                    <li class="my-3 cursor-pointer hover:underline">Privacy at Microsoft</li>
+                    <li class="my-3 cursor-pointer hover:underline">Investors</li>
+                    <li class="my-3 cursor-pointer hover:underline">Security</li>
+                    <li class="my-3 cursor-pointer hover:underline">Sustainability</li>
+                </ul>
+            </div>
+        </div>
+          <div class="footer-part-2 flex flex-row bg-[#f2f2f2]">
+            <div class="language2 space-x-3 lg:w-[30%] flex lg:justify-start px-5">
+                <i class="fa-solid fa-earth-americas"></i><span>English (India)</span>
+            </div>
+            <div class="contact space-x-3 lg:w-[70%] flex justify-end px-5 flex-wrap">
+                <span>Contact Microsoft</span>
+                <span>Privacy</span>
+                <span>Terms of use</span>
+                <span>Trademarks</span>
+                <span>About our ads</span>
+                <span>© Microsoft 2022</span>
+            </div>
+          </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("newmenu");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      
+    </script>
+
+</body>
+</html>
